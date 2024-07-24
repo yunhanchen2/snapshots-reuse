@@ -293,8 +293,8 @@ void CSRGraph::Generate_Snapshots(int _num_snapshots, int _original_ratio){
     delete [] array_0;
 
     //generate the i-th snapshot
-    int add_percent=10;
-    int delete_percent=10;
+    int add_percent=5;
+    int delete_percent=5;
 
     for(int r=1;r<m_snapshots;r++){
         generate_one_snapshot(add_percent,delete_percent,r);
